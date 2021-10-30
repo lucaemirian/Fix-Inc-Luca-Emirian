@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+nav {
+    ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+            list-style-type: none;
+            padding: 0 8px;
+            margin: 0 0 6px 0;
+
+            &:hover {
+                background-color: #f9fafb78;
+                border-radius: 4px;
+            }
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+main {
+    margin-top: 70px;
+
+    h1 {
+        text-align: center;
+    }
+
+    &.home{
+        margin-top: 96px;
+        padding: 24px;
+    }    
+}
+
+.video__tutoriales{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    .video-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 24px;
+
+        @media screen and (min-width: 768px) {
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+    }
+}
+
+.box__acerca {
+    background-color: #ffff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+
+    span {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0 0 0 32px;
+    }
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+
+        img {
+            width: 500px;
+        }
+
+        span {
+            width: 300px;
+        }
+    }
+
+}
+
+h1 {
+    position: relative;
+    background-color: rgb(24, 38, 161);
+    color: white;
+}
+
+th {
+    background-color:#cccccc;
+    border: 1px solid;
+}
+  
+tr, td {
+    border: 1px solid;
+}
+
+form {
+    height: 100%;
+    margin: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffff;
+    box-shadow: 0 4px 12px rgba(0,0,0, 0.12);
+    padding: 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+
+    .instagram_logo {
+        width: 40px;
+        margin: 0 24px 0 0;
+    }
+    
+    .whatsapp_logo {
+        width: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

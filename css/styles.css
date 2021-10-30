@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap");
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 0 8px;
+  margin: 0 0 6px 0;
+}
+
+nav ul li:hover {
+  background-color: #f9fafb78;
+  border-radius: 4px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+main {
+  margin-top: 70px;
+}
+
+main h1 {
+  text-align: center;
+}
+
+main.home {
+  margin-top: 96px;
+  padding: 24px;
+}
+
+.video__tutoriales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.video__tutoriales .video-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .video__tutoriales .video-row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+.box__acerca {
+  background-color: #ffff;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.box__acerca img {
+  width: 100%;
+}
+
+.box__acerca span {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 0 0 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .box__acerca {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .box__acerca img {
+    width: 500px;
+  }
+  .box__acerca span {
+    width: 300px;
+  }
+}
+
+h1 {
+  position: relative;
+  background-color: #1826a1;
+  color: white;
+}
+
+th {
+  background-color: #cccccc;
+  border: 1px solid;
+}
+
+tr, td {
+  border: 1px solid;
+}
+
+form {
+  height: 100%;
+  margin: 20px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ffff;
+  -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  padding: 12px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+}
+
+footer .instagram_logo {
+  width: 40px;
+  margin: 0 24px 0 0;
+}
+
+footer .whatsapp_logo {
+  width: 40px;
+}
+/*# sourceMappingURL=styles.css.map */
